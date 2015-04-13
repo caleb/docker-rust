@@ -13,6 +13,7 @@ ENV USER root
 ENV DATE 2015-04-13
 
 RUN curl -s https://static.rust-lang.org/rustup.sh | bash
+RUN ldconfig
 
 VOLUME ["/source"]
 WORKDIR /source
