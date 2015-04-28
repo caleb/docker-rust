@@ -3,3 +3,7 @@
 cd stable
 ./push.sh
 cd ..
+
+cd nightly
+./push.sh
+cd ..
