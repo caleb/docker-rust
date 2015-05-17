@@ -12,7 +12,7 @@ ENV USER root
 # Change to force a build of rust/cargo
 ENV DATE 2015-05-17
 
-RUN curl -sSf https://static.rust-lang.org/rustup.sh | bash -s -- -y --disable-sudo --channel=nightly
+RUN curl -sSf https://static.rust-lang.org/rustup.sh | bash -s -- -y --disable-sudo --channel=beta
 RUN ldconfig
 
 VOLUME ["/source"]

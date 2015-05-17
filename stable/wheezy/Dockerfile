@@ -10,9 +10,9 @@ RUN apt-get update \
 ENV USER root
 
 # Change to force a build of rust/cargo
-ENV DATE 2015-04-13
+ENV DATE 2015-05-17
 
-RUN curl -s https://static.rust-lang.org/rustup.sh | bash
+RUN curl -sSf https://static.rust-lang.org/rustup.sh | bash -s -- -y --disable-sudo
 RUN ldconfig
 
 VOLUME ["/source"]
