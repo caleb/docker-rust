@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
+NO_CACHE="${1:-false}"
+
 cd stable
-./build.sh
+./build.sh $NO_CACHE
 cd ..
 
 cd beta
-./build.sh
+./build.sh $NO_CACHE
 cd ..
 
 cd nightly
-./build.sh
+./build.sh $NO_CACHE
 cd ..
