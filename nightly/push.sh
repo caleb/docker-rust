@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker push docker.rodeopartners.com/rust:nightly-squeeze
-docker push docker.rodeopartners.com/rust:nightly-wheezy
-docker push docker.rodeopartners.com/rust:nightly-jessie
-docker push docker.rodeopartners.com/rust:nightly
+docker push caleb/rust:nightly-squeeze
+docker push caleb/rust:nightly-wheezy
+docker push caleb/rust:nightly-jessie
+docker push caleb/rust:nightly

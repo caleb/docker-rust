@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker push docker.rodeopartners.com/rust:beta-squeeze
-docker push docker.rodeopartners.com/rust:beta-wheezy
-docker push docker.rodeopartners.com/rust:beta-jessie
-docker push docker.rodeopartners.com/rust:beta
+docker push caleb/rust:beta-squeeze
+docker push caleb/rust:beta-wheezy
+docker push caleb/rust:beta-jessie
+docker push caleb/rust:beta
